@@ -1,4 +1,4 @@
-# PlateStudio (a.k.a. ConsistCraft)
+# PlateStudio 
 
 > An elegant web app for designers and marketing coordinators to visualize product packaging and hardware concepts across multiple physical and digital mediums — with strict visual, color, and thematic cohesion.
 
