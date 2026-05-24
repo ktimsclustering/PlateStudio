@@ -38,3 +38,22 @@ Built using **React (Vite)**, **Tailwind CSS**, and **Express**, with real-time 
 Create a `.env` file in the root directory and add your secret key:
 ```env
 GEMINI_API_KEY=your_actual_gemini_api_key_here
+
+2. Install Dependencies
+Run the following command in your terminal:
+code
+Bash
+npm install
+3. Start the Development Server
+Launch both the Express backend and the Vite frontend simultaneously:
+code
+Bash
+npm run dev
+Open http://localhost:3000 in your web browser to access the interface.
+code
+Code
+---
+
+### Key Highlights of Your Application's Architecture:
+1. **Zero-Flicker Full-Stack Proxy**: Your API requests go through the Node/Express backend (`server.ts`) keeping your `GEMINI_API_KEY` safe and secure from browser inspection.
+2. **Safe Fallback Vector Engine**: It renders clean, themed SVGs (like your custom **Gamepad with oled cute eye loops**, **AR Glasses**, or **Audio Headphones**) when running without active keys or when quotas are hit.
