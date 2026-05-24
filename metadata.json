@@ -1,0 +1,6 @@
+{
+  "name": "Marketing Materials Generator",
+  "description": "Describe a product and visualize it across multiple marketing mediums (billboard, social post, newspaper) with product consistency, with zero people in the generated images.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
